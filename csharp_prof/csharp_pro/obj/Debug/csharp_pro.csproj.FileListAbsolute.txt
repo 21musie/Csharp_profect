@@ -1,0 +1,11 @@
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\bin\Debug\csharp_pro.exe.config
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\bin\Debug\csharp_pro.exe
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\bin\Debug\csharp_pro.pdb
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\obj\Debug\csharp_pro.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\obj\Debug\csharp_pro.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\obj\Debug\csharp_pro.Form1.resources
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\obj\Debug\csharp_pro.Properties.Resources.resources
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\obj\Debug\csharp_pro.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\obj\Debug\csharp_pro.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\obj\Debug\csharp_pro.exe
+C:\Users\HP\Desktop\cproject\csharp_pro\csharp_pro\obj\Debug\csharp_pro.pdb
