@@ -20,10 +20,15 @@ namespace csharp_pro
 
         }
         private bool isCollapsed = true;
+        private int Size = 6;
+        private bool btn1;
+
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
             BackgroundImageLayout = ImageLayout.Stretch;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -100,6 +105,33 @@ namespace csharp_pro
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if(textBox1.Text.Length != 0)
+            {
+                label1.Visible = true;
+                textBox1.ForeColor = Color.Black;
+            }
+            //textBox1.Clear();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+        }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            textBox1.Text = "search anything you want...";
+            label1.Visible = false;
+            textBox1.ForeColor = Color.Gray;
         }
     }
 }
