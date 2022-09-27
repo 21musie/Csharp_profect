@@ -8,5 +8,6 @@ namespace csharp_pro
 {
     internal class Class1
     {
+
     }
 }

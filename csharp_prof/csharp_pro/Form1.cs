@@ -111,7 +111,7 @@ namespace csharp_pro
         {
             if(textBox1.Text.Length != 0)
             {
-                label1.Visible = true;
+                lbl_clear_search.Visible = true;
                 textBox1.ForeColor = Color.Black;
             }
             //textBox1.Clear();
@@ -120,6 +120,8 @@ namespace csharp_pro
         private void label1_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
+            lbl_clear_search.Visible = false;
+            lbl_clear_search.ForeColor = Color.Gray;
         }
 
         private void textBox1_Click(object sender, EventArgs e)
@@ -130,8 +132,13 @@ namespace csharp_pro
         private void textBox1_Leave(object sender, EventArgs e)
         {
             textBox1.Text = "search anything you want...";
-            label1.Visible = false;
+            lbl_clear_search.Visible = false;
             textBox1.ForeColor = Color.Gray;
+        }
+
+        private void label1_MouseHover(object sender, EventArgs e)
+        {
+            lbl_clear_search.ForeColor = Color.Aqua;
         }
     }
 }
