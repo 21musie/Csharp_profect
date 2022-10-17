@@ -43,5 +43,23 @@ namespace csharp_pro.Dash
         {
             addC();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            students s = new students();
+            s.TopLevel = false;
+            pnlContent.Controls.Add(s);
+            s.BringToFront();
+            s.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Teachers s = new Teachers();
+            s.TopLevel = false;
+            pnlContent.Controls.Add(s);
+            s.BringToFront();
+            s.Show();
+        }
     }
 }

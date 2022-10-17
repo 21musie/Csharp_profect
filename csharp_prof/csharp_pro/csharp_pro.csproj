@@ -94,11 +94,11 @@
     <Compile Include="Dash\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dash\UserControl2.cs">
+    <Compile Include="items\ItemCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dash\UserControl2.Designer.cs">
-      <DependentUpon>UserControl2.cs</DependentUpon>
+    <Compile Include="items\ItemCard.Designer.cs">
+      <DependentUpon>ItemCard.cs</DependentUpon>
     </Compile>
     <Compile Include="model\Admin.cs" />
     <Compile Include="model\Catagory.cs" />
@@ -106,11 +106,17 @@
     <Compile Include="model\dbContext.cs" />
     <Compile Include="model\Item.cs" />
     <Compile Include="model\Seller.cs" />
-    <Compile Include="Dash\TsetUserControl1.cs">
+    <Compile Include="students.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dash\TsetUserControl1.Designer.cs">
-      <DependentUpon>TsetUserControl1.cs</DependentUpon>
+    <Compile Include="students.Designer.cs">
+      <DependentUpon>students.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teachers.Designer.cs">
+      <DependentUpon>Teachers.cs</DependentUpon>
     </Compile>
     <Compile Include="users\user_registration.cs">
       <SubType>Form</SubType>
@@ -159,11 +165,14 @@
     <EmbeddedResource Include="Dash\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dash\TsetUserControl1.resx">
-      <DependentUpon>TsetUserControl1.cs</DependentUpon>
+    <EmbeddedResource Include="items\ItemCard.resx">
+      <DependentUpon>ItemCard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dash\UserControl2.resx">
-      <DependentUpon>UserControl2.cs</DependentUpon>
+    <EmbeddedResource Include="students.resx">
+      <DependentUpon>students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers.resx">
+      <DependentUpon>Teachers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="users\user_registration.resx">
       <DependentUpon>user_registration.cs</DependentUpon>

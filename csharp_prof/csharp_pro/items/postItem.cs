@@ -36,5 +36,11 @@ namespace csharp_pro.items
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }

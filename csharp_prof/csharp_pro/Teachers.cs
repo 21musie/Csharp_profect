@@ -8,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace csharp_pro.Dash
+namespace csharp_pro
 {
-    public partial class UserControl2 : UserControl
+    public partial class Teachers : Form
     {
-        public UserControl2()
+        public Teachers()
         {
             InitializeComponent();
-        }
-
-        private void UserControl2_Load(object sender, EventArgs e)
-        {
-           // UserControl2 a= new UserControl2();
-
         }
     }
 }
