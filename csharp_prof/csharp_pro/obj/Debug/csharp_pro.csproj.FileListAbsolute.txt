@@ -53,3 +53,33 @@ C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj
 C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.students.resources
 C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Teachers.resources
 C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.ItemCard.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\csharp_pro.exe.config
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\csharp_pro.exe
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\csharp_pro.pdb
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Design.dll
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\Guna.UI2.dll
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\RJCodeAdvance.RJControls.dll
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Dashboard.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Form1.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Dash.Form2.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Home.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.ItemCard.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.students.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Teachers.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.user_registration.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.postItem.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Properties.Resources.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.SignUp.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.splash.resources
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.GenerateResource.cache
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.CopyComplete
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.exe
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.pdb

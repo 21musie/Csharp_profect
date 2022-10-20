@@ -39,11 +39,6 @@ namespace csharp_pro
 
             ItemCard i = new ItemCard();
             flp1.BringToFront();
-            flp1.Controls.Add(i);
-            flp1.Controls.Add(i);
-            flp1.Controls.Add(i);
-            flp1.Controls.Add(i);
-            flp1.Controls.Add(i);
 
 
 
@@ -82,6 +77,11 @@ namespace csharp_pro
 
             }
             int[] i = new int[2];
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

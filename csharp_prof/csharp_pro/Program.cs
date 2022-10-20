@@ -18,7 +18,7 @@ namespace csharp_pro
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new postItem());
+            Application.Run(new Home());
         }
     }
 }
