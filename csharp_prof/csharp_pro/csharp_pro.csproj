@@ -94,6 +94,12 @@
     <Compile Include="Dash\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="items\CardClicked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="items\CardClicked.Designer.cs">
+      <DependentUpon>CardClicked.cs</DependentUpon>
+    </Compile>
     <Compile Include="items\ItemCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dash\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="items\CardClicked.resx">
+      <DependentUpon>CardClicked.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="items\ItemCard.resx">
       <DependentUpon>ItemCard.cs</DependentUpon>

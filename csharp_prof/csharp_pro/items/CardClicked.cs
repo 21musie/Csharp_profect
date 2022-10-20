@@ -16,5 +16,25 @@ namespace csharp_pro.items
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CardClicked_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_post_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

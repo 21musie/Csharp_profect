@@ -15,6 +15,6 @@ namespace csharp_pro.model
         public int phone { get; set; }
         public string email { get; set; }
         public string password { get; set; }
-        public string date { get; set; }
+        public DateTime date { get; set; }
     }
 }

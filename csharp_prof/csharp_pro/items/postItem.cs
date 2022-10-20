@@ -24,6 +24,7 @@ namespace csharp_pro.items
         Regex Remail = new Regex(@"^[A-Za-z0-9]+@[a-z]+\.com$");
         //Regex Rid = new Regex(@"^[A-Za-z]{2}[0-9]{4}$");
         //Regex Rprice = new Regex(@"^$");
+        //Regex Rdiscription = new Regex(@"");
 
         private void postItem_Load(object sender, EventArgs e)
         {
@@ -58,6 +59,25 @@ namespace csharp_pro.items
                 item.catagory = dpd_catagory.selectedValue.ToString();
                 item.quantity = int.Parse(dpd_quantity.selectedValue.ToString());
                 item.postDate = dtp1.Value;
+
+            }
+            else
+            {
+                //errorProvider1.SetError(txt_Name, "Incorrect Format");
+                if (!Rname.IsMatch(txt_Name.Text))
+                    errorProvider1.SetError(txt_Name, "Incorrect Name Format");
+                if (!Rname.IsMatch(txt_location.Text))
+                    errorProvider1.SetError(txt_location, "Incorrect Location Format");
+                //if (dpd_status.selectedValue.ToString() == "") ;
+                //    errorProvider1.SetError(dpd_status, "Choose the status");
+                //if (!Rprice.IsMatch(txt_price.Text))
+                //    errorProvider1.SetError(txt_price, "Incorrect Price Format");
+                //if (!Rdiscription.IsMatch(txt_discription.Text))
+                //    errorProvider1.SetError(txt_discription, "Incorrect discription Format");
+                //if (dpd_catagory.selectedValue.ToString() == null)
+                //    errorProvider1.SetError(dpd_catagory, "Choose a Catagory");
+                //if (dpd_quantity.selectedValue.ToString() == null)
+                //    errorProvider1.SetError(dpd_quantity, "Choose the Quantity of the item");
 
             }
         }

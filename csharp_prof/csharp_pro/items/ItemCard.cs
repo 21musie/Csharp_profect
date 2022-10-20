@@ -28,14 +28,14 @@ namespace csharp_pro.items
         public string Icatagory
         {
             get { return _catagory; }
-            set { _catagory = value; lbl_catagory.Text = value; }
+            set { _catagory = value;  }
         }
 
         private string _status;
         public string Istatus
         {
             get { return _status; }
-            set { _status = value; lbl_status.Text = value; }
+            set { _status = value;  }
         }
 
         private string _price;
@@ -49,7 +49,7 @@ namespace csharp_pro.items
         public string Ilocation
         {
             get { return _location; }
-            set { _location = value; lbl_location.Text = value; }
+            set { _location = value; }
 
         }
 

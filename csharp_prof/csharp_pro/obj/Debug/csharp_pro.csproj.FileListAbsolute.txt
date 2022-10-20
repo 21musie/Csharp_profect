@@ -83,3 +83,4 @@ C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_
 C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.CopyComplete
 C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.exe
 C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.pdb
+C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.CardClicked.resources

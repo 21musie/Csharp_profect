@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace csharp_pro.model
 {
-    internal class dbContext
+    internal class dbContext 
     {
+
     }
 }
