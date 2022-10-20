@@ -9,10 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
 using csharp_pro.model;
+using csharp_pro.Dash;
 
 namespace csharp_pro.items
 {
-    public partial class postItem : Form
+    public partial class postItem :  Home
     {
         public postItem()
         {
@@ -48,9 +49,10 @@ namespace csharp_pro.items
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            Item item = new Item();
             if (Rname.IsMatch(txt_Name.Text) & Rname.IsMatch(txt_location.Text))
             {
-                Item item = new Item();
+                
 
                 item.name = txt_Name.Text;
                 item.location = txt_location.Text;
@@ -78,8 +80,18 @@ namespace csharp_pro.items
                 //    errorProvider1.SetError(dpd_catagory, "Choose a Catagory");
                 //if (dpd_quantity.selectedValue.ToString() == null)
                 //    errorProvider1.SetError(dpd_quantity, "Choose the Quantity of the item");
-
             }
+
+            ItemCard card1 = new ItemCard();
+            card1.Iname = item.name;
+            card1.Iprice = item.price.ToString();
+            Home h = new Home();
+
+           // flp1.Controls.Add(card1);
+
+
+
+
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -100,6 +112,24 @@ namespace csharp_pro.items
         private void dpd_status_onItemSelected(object sender, EventArgs e)
         {
             lbl_status.Text = dpd_status.selectedValue.ToString();
+        }
+
+        private void btn_addImage_Click(object sender, EventArgs e)
+        {
+            // open file dialog   
+            OpenFileDialog open = new OpenFileDialog();
+            // image filters  
+            open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                // display image in picture box  
+                pib_one.Image = new Bitmap(open.FileName);
+                // image file path  
+                //textBox1.Text = open.FileName;
+               
+                pib_one.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+
         }
     }
 }

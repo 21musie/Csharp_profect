@@ -83,5 +83,48 @@ namespace csharp_pro
         {
 
         }
+
+        private void btn_vehicle_Click(object sender, EventArgs e)
+        {
+            flp2.Visible = false;
+            flp1.Dock = DockStyle.Fill;
+            //flp1.BackColor = Color.Violet;
+
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+            if (textBox1.Text.Length != 0)
+            {
+                lbl_clear_search.Visible = true;
+                textBox1.ForeColor = Color.Black;
+            }
+        }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            textBox1.Text = "search anything you want...";
+            lbl_clear_search.Visible = false;
+            textBox1.ForeColor = Color.Gray;
+        }
+
+        private void btn_sell_Click(object sender, EventArgs e)
+        {
+            postItem ps = new postItem();
+            ps.Show();
+            
+        }
+
+        private void flp1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

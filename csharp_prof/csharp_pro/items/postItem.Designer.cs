@@ -41,8 +41,7 @@
             this.dpd_catagory = new Bunifu.Framework.UI.BunifuDropdown();
             this.dtp1 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.lbl_price = new System.Windows.Forms.Label();
-            this.btn_addImage = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pib_one = new System.Windows.Forms.PictureBox();
             this.dpd_status = new Bunifu.Framework.UI.BunifuDropdown();
             this.lbl_status = new System.Windows.Forms.Label();
             this.lbl_quantity = new System.Windows.Forms.Label();
@@ -51,7 +50,8 @@
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.btn_post = new Guna.UI2.WinForms.Guna2Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.btn_addImage = new Guna.UI2.WinForms.Guna2Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pib_one)).BeginInit();
             this.rjDropdownMenu1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -64,7 +64,7 @@
             // txt_Name
             // 
             this.txt_Name.Location = new System.Drawing.Point(59, 175);
-            this.txt_Name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Name.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Name.Name = "txt_Name";
             this.txt_Name.Size = new System.Drawing.Size(283, 22);
             this.txt_Name.TabIndex = 5;
@@ -99,7 +99,7 @@
             // txt_location
             // 
             this.txt_location.Location = new System.Drawing.Point(59, 265);
-            this.txt_location.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_location.Margin = new System.Windows.Forms.Padding(4);
             this.txt_location.Name = "txt_location";
             this.txt_location.Size = new System.Drawing.Size(283, 22);
             this.txt_location.TabIndex = 5;
@@ -120,7 +120,7 @@
             // txt_price
             // 
             this.txt_price.Location = new System.Drawing.Point(59, 358);
-            this.txt_price.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_price.Margin = new System.Windows.Forms.Padding(4);
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(283, 22);
             this.txt_price.TabIndex = 5;
@@ -141,7 +141,7 @@
             // txt_description
             // 
             this.txt_description.Location = new System.Drawing.Point(59, 464);
-            this.txt_description.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_description.Margin = new System.Windows.Forms.Padding(4);
             this.txt_description.Multiline = true;
             this.txt_description.Name = "txt_description";
             this.txt_description.Size = new System.Drawing.Size(283, 123);
@@ -164,7 +164,7 @@
         "construction maretial",
         "Kidney"};
             this.dpd_catagory.Location = new System.Drawing.Point(56, 64);
-            this.dpd_catagory.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dpd_catagory.Margin = new System.Windows.Forms.Padding(5);
             this.dpd_catagory.Name = "dpd_catagory";
             this.dpd_catagory.NomalColor = System.Drawing.Color.MediumSlateBlue;
             this.dpd_catagory.onHoverColor = System.Drawing.Color.Empty;
@@ -181,7 +181,7 @@
             this.dtp1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtp1.FormatCustom = null;
             this.dtp1.Location = new System.Drawing.Point(804, 64);
-            this.dtp1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dtp1.Margin = new System.Windows.Forms.Padding(5);
             this.dtp1.Name = "dtp1";
             this.dtp1.Size = new System.Drawing.Size(209, 37);
             this.dtp1.TabIndex = 8;
@@ -200,34 +200,15 @@
             this.lbl_price.TabIndex = 4;
             this.lbl_price.Text = "Price";
             // 
-            // btn_addImage
+            // pib_one
             // 
-            this.btn_addImage.BackColor = System.Drawing.Color.Transparent;
-            this.btn_addImage.BorderRadius = 10;
-            this.btn_addImage.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_addImage.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_addImage.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_addImage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_addImage.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_addImage.ForeColor = System.Drawing.Color.White;
-            this.btn_addImage.Location = new System.Drawing.Point(760, 423);
-            this.btn_addImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btn_addImage.Name = "btn_addImage";
-            this.btn_addImage.Size = new System.Drawing.Size(288, 55);
-            this.btn_addImage.TabIndex = 11;
-            this.btn_addImage.Text = "Add Image";
-            this.btn_addImage.UseTransparentBackground = true;
-            this.btn_addImage.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(760, 155);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(288, 249);
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
+            this.pib_one.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pib_one.Location = new System.Drawing.Point(760, 155);
+            this.pib_one.Margin = new System.Windows.Forms.Padding(4);
+            this.pib_one.Name = "pib_one";
+            this.pib_one.Size = new System.Drawing.Size(288, 249);
+            this.pib_one.TabIndex = 12;
+            this.pib_one.TabStop = false;
             // 
             // dpd_status
             // 
@@ -241,7 +222,7 @@
         "Used",
         "Old"};
             this.dpd_status.Location = new System.Drawing.Point(407, 64);
-            this.dpd_status.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dpd_status.Margin = new System.Windows.Forms.Padding(5);
             this.dpd_status.Name = "dpd_status";
             this.dpd_status.NomalColor = System.Drawing.Color.MediumSlateBlue;
             this.dpd_status.onHoverColor = System.Drawing.Color.Empty;
@@ -295,7 +276,7 @@
         "9",
         "10"};
             this.dpd_quantity.Location = new System.Drawing.Point(407, 164);
-            this.dpd_quantity.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dpd_quantity.Margin = new System.Windows.Forms.Padding(5);
             this.dpd_quantity.Name = "dpd_quantity";
             this.dpd_quantity.NomalColor = System.Drawing.Color.MediumSlateBlue;
             this.dpd_quantity.onHoverColor = System.Drawing.Color.Empty;
@@ -334,7 +315,7 @@
             this.btn_post.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_post.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.btn_post.Location = new System.Drawing.Point(760, 519);
-            this.btn_post.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_post.Margin = new System.Windows.Forms.Padding(4);
             this.btn_post.Name = "btn_post";
             this.btn_post.Size = new System.Drawing.Size(288, 55);
             this.btn_post.TabIndex = 11;
@@ -346,6 +327,25 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // btn_addImage
+            // 
+            this.btn_addImage.BackColor = System.Drawing.Color.Transparent;
+            this.btn_addImage.BorderRadius = 10;
+            this.btn_addImage.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_addImage.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_addImage.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_addImage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_addImage.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_addImage.ForeColor = System.Drawing.Color.White;
+            this.btn_addImage.Location = new System.Drawing.Point(760, 423);
+            this.btn_addImage.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_addImage.Name = "btn_addImage";
+            this.btn_addImage.Size = new System.Drawing.Size(288, 55);
+            this.btn_addImage.TabIndex = 11;
+            this.btn_addImage.Text = "Add Image";
+            this.btn_addImage.UseTransparentBackground = true;
+            this.btn_addImage.Click += new System.EventHandler(this.btn_addImage_Click);
+            // 
             // postItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -355,7 +355,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 624);
             this.Controls.Add(this.lbl_quantity);
             this.Controls.Add(this.dpd_quantity);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pib_one);
             this.Controls.Add(this.btn_post);
             this.Controls.Add(this.btn_addImage);
             this.Controls.Add(this.dtp1);
@@ -373,11 +373,11 @@
             this.Controls.Add(this.lbl_Iname);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "postItem";
             this.Text = "postItem";
             this.Load += new System.EventHandler(this.postItem_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pib_one)).EndInit();
             this.rjDropdownMenu1.ResumeLayout(false);
             this.rjDropdownMenu1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
@@ -400,8 +400,7 @@
         private System.Windows.Forms.Label lbl_Iname;
         private Bunifu.Framework.UI.BunifuDatepicker dtp1;
         private System.Windows.Forms.Label lbl_price;
-        private Guna.UI2.WinForms.Guna2Button btn_addImage;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pib_one;
         private System.Windows.Forms.Label lbl_status;
         private Bunifu.Framework.UI.BunifuDropdown dpd_status;
         private System.Windows.Forms.Label lbl_quantity;
@@ -410,5 +409,6 @@
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
         private Guna.UI2.WinForms.Guna2Button btn_post;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private Guna.UI2.WinForms.Guna2Button btn_addImage;
     }
 }

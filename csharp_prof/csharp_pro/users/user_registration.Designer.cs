@@ -53,6 +53,7 @@
             this.rdb_buyer = new System.Windows.Forms.RadioButton();
             this.rdb_seller = new System.Windows.Forms.RadioButton();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.grb_radioBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -90,7 +91,7 @@
             // txt_Fname
             // 
             this.txt_Fname.Location = new System.Drawing.Point(101, 219);
-            this.txt_Fname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Fname.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Fname.Name = "txt_Fname";
             this.txt_Fname.Size = new System.Drawing.Size(283, 22);
             this.txt_Fname.TabIndex = 3;
@@ -111,7 +112,7 @@
             // txt_Lname
             // 
             this.txt_Lname.Location = new System.Drawing.Point(101, 304);
-            this.txt_Lname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Lname.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Lname.Name = "txt_Lname";
             this.txt_Lname.Size = new System.Drawing.Size(283, 22);
             this.txt_Lname.TabIndex = 3;
@@ -132,7 +133,7 @@
             // txt_email
             // 
             this.txt_email.Location = new System.Drawing.Point(101, 388);
-            this.txt_email.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_email.Margin = new System.Windows.Forms.Padding(4);
             this.txt_email.Name = "txt_email";
             this.txt_email.Size = new System.Drawing.Size(283, 22);
             this.txt_email.TabIndex = 3;
@@ -153,7 +154,7 @@
             // txt_phone
             // 
             this.txt_phone.Location = new System.Drawing.Point(101, 481);
-            this.txt_phone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_phone.Margin = new System.Windows.Forms.Padding(4);
             this.txt_phone.Name = "txt_phone";
             this.txt_phone.Size = new System.Drawing.Size(283, 22);
             this.txt_phone.TabIndex = 3;
@@ -174,7 +175,7 @@
             // txt_age
             // 
             this.txt_age.Location = new System.Drawing.Point(572, 219);
-            this.txt_age.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_age.Margin = new System.Windows.Forms.Padding(4);
             this.txt_age.Name = "txt_age";
             this.txt_age.Size = new System.Drawing.Size(283, 22);
             this.txt_age.TabIndex = 3;
@@ -195,7 +196,7 @@
             // txt_password
             // 
             this.txt_password.Location = new System.Drawing.Point(572, 304);
-            this.txt_password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_password.Margin = new System.Windows.Forms.Padding(4);
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(283, 22);
             this.txt_password.TabIndex = 3;
@@ -216,7 +217,7 @@
             // txt_Confirmpwd
             // 
             this.txt_Confirmpwd.Location = new System.Drawing.Point(572, 388);
-            this.txt_Confirmpwd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Confirmpwd.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Confirmpwd.Name = "txt_Confirmpwd";
             this.txt_Confirmpwd.Size = new System.Drawing.Size(283, 22);
             this.txt_Confirmpwd.TabIndex = 3;
@@ -237,7 +238,7 @@
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(572, 481);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(283, 22);
             this.textBox8.TabIndex = 3;
@@ -250,7 +251,7 @@
             this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.bunifuDatepicker1.FormatCustom = null;
             this.bunifuDatepicker1.Location = new System.Drawing.Point(808, 84);
-            this.bunifuDatepicker1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuDatepicker1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuDatepicker1.Name = "bunifuDatepicker1";
             this.bunifuDatepicker1.Size = new System.Drawing.Size(209, 37);
             this.bunifuDatepicker1.TabIndex = 5;
@@ -260,7 +261,7 @@
             // 
             this.btn_register.ButtonStyle = ComponentFactory.Krypton.Toolkit.ButtonStyle.NavigatorMini;
             this.btn_register.Location = new System.Drawing.Point(839, 578);
-            this.btn_register.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_register.Margin = new System.Windows.Forms.Padding(4);
             this.btn_register.Name = "btn_register";
             this.btn_register.Size = new System.Drawing.Size(179, 44);
             this.btn_register.StateCommon.Back.Color2 = System.Drawing.Color.Snow;
@@ -283,9 +284,9 @@
             this.grb_radioBox.Controls.Add(this.rdb_seller);
             this.grb_radioBox.ForeColor = System.Drawing.Color.Snow;
             this.grb_radioBox.Location = new System.Drawing.Point(101, 554);
-            this.grb_radioBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grb_radioBox.Margin = new System.Windows.Forms.Padding(4);
             this.grb_radioBox.Name = "grb_radioBox";
-            this.grb_radioBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grb_radioBox.Padding = new System.Windows.Forms.Padding(4);
             this.grb_radioBox.Size = new System.Drawing.Size(284, 113);
             this.grb_radioBox.TabIndex = 7;
             this.grb_radioBox.TabStop = false;
@@ -296,7 +297,7 @@
             this.rdb_buyer.AutoSize = true;
             this.rdb_buyer.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdb_buyer.Location = new System.Drawing.Point(23, 64);
-            this.rdb_buyer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdb_buyer.Margin = new System.Windows.Forms.Padding(4);
             this.rdb_buyer.Name = "rdb_buyer";
             this.rdb_buyer.Size = new System.Drawing.Size(82, 27);
             this.rdb_buyer.TabIndex = 0;
@@ -310,7 +311,7 @@
             this.rdb_seller.AutoSize = true;
             this.rdb_seller.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdb_seller.Location = new System.Drawing.Point(23, 25);
-            this.rdb_seller.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdb_seller.Margin = new System.Windows.Forms.Padding(4);
             this.rdb_seller.Name = "rdb_seller";
             this.rdb_seller.Size = new System.Drawing.Size(80, 27);
             this.rdb_seller.TabIndex = 0;
@@ -322,6 +323,10 @@
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // user_registration
             // 
@@ -353,7 +358,7 @@
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.Snow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "user_registration";
             this.Text = "addItem";
             this.Load += new System.EventHandler(this.addItem_Load);
@@ -391,5 +396,6 @@
         private System.Windows.Forms.RadioButton rdb_buyer;
         private System.Windows.Forms.RadioButton rdb_seller;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

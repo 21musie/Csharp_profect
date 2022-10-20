@@ -48,7 +48,18 @@ namespace csharp_pro
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            barValue += 1;
+            int variable = 0;
+           while (bunifuProgressBar1.Value != 100)
+            {
+
+                barValue += 1;
+                variable++;
+                lbl_num.Text = variable.ToString();
+            }
+            
+            
+            
+            
             //bunifuCircleProgressbar1.Value = barValue;
             bunifuProgressBar1.Value = barValue;
 
