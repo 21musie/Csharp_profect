@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using csharp_pro.items;
+using csharp_pro.model;
 
 
 namespace csharp_pro
@@ -46,6 +47,41 @@ namespace csharp_pro
 
 
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            List<Item> ilist = new List<Item>();
+
+            Item i1 = new Item();
+            i1.name = "car";
+            i1.status = "new";
+            i1.price = 500000.25;
+            i1.location = "aa";
+            i1.catagory = "drm21;";
+            ilist.Add(i1);
+
+
+            foreach (var item in ilist)
+            {
+                //ItemCard[] card1 = new ItemCard[5];
+                ItemCard card1 = new ItemCard();
+                card1.Iname = item.name;
+                card1.Istatus = item.status;
+                card1.Icatagory = item.catagory;
+                card1.Iprice = item.price.ToString();
+               card1.Ilocation = item.location;
+
+               // s.Click += studentCard_Click;
+                flp1.Controls.Add(card1);
+
+            }
+            int[] i = new int[2];
         }
     }
 }

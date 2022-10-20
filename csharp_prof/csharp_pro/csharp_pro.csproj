@@ -139,7 +139,7 @@
     <Compile Include="Dash\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dash\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Dash\SignUp.cs">
       <SubType>Form</SubType>
@@ -215,6 +215,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\collapse2.png" />
+    <None Include="Resources\img22.png" />
     <None Include="Resources\img21.png" />
     <None Include="Resources\img2.png" />
   </ItemGroup>

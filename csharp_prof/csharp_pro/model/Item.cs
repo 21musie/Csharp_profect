@@ -15,6 +15,9 @@ namespace csharp_pro.model
         public string status { get; set; }
         public DateTime  postDate { get; set; }
         public int quantity { get; set; }
+        public double price { get; set; }
+        public string location { get; set; }
+
         public int sellerId { get; set; } // foreign key
 
 

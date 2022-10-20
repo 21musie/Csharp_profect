@@ -32,7 +32,7 @@ namespace csharp_pro.items
             Regex Rname = new Regex(@"^[A-Za-z]{3,15}$");
             Regex Rphone = new Regex(@"^09[0-9]{8}$");
             Regex Remail = new Regex(@"^[A-Za-z0-9]+@[a-z]+\.com$");
-            Regex Rid = new Regex(@"^[A-Za-z]{2}[0-9]{4}$");
+            //Regex Rid = new Regex(@"^[A-Za-z]{2}[0-9]{4}$");
 
             if (rdb_seller.Checked)
             {
@@ -45,7 +45,7 @@ namespace csharp_pro.items
                     c.age = int.Parse(txt_age.Text);
                     c.email = txt_email.Text;
                     c.phone = int.Parse(txt_phone.Text);
-                    c.date = bunifuDatepicker1.ToString();
+                    c.date = bunifuDatepicker1.Value;
                 }
                 else if (Rname.IsMatch(txt_Fname.Text) & Rname.IsMatch(txt_Lname.Text) & Remail.IsMatch(txt_email.Text) & Rphone.IsMatch(txt_phone.Text))
                 {
