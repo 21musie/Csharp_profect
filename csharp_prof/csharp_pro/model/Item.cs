@@ -6,20 +6,14 @@ using System.Threading.Tasks;
 
 namespace csharp_pro.model
 {
-    internal class Item
+   class Item
     {
-        public int itemId { get; set; }
-        
+        public int itemid { get; set; } 
         public string name { get; set; }
-        public string  catagory { get; set; }
         public string status { get; set; }
-        public DateTime  postDate { get; set; }
-        public int quantity { get; set; }
-        public double price { get; set; }
-        public string location { get; set; }
 
-        public int sellerId { get; set; } // foreign key
-
-
+        public string postdate { get; set; }
+        public string quantity { get; set; }
+        public int location { get; set; }
     }
 }

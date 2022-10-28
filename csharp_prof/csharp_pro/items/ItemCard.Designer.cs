@@ -132,6 +132,6 @@
         private System.Windows.Forms.Label lbl_itemPrice;
         private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.Label lbl_price;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private global::Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }
