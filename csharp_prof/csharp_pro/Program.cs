@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using csharp_pro.items;
-using csharp_pro.Dash;
+//using csharp_pro.Dash;
 
 namespace csharp_pro
 {
@@ -18,7 +18,7 @@ namespace csharp_pro
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new splash());
+            Application.Run(new user_registration());
         }
     }
 }

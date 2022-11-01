@@ -48,18 +48,18 @@ namespace csharp_pro
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            int variable = 0;
-           while (bunifuProgressBar1.Value != 100)
-            {
+           // int variable = 0;
+           //while (bunifuProgressBar1.Value != 100)
+           // {
 
-                barValue += 1;
-                variable++;
-                lbl_num.Text = variable.ToString();
-            }
-            
-            
-            
-            
+                
+           //     variable++;
+           //     lbl_num.Text = variable.ToString();
+           // }
+
+
+
+            barValue += 1;
             //bunifuCircleProgressbar1.Value = barValue;
             bunifuProgressBar1.Value = barValue;
 
@@ -69,8 +69,8 @@ namespace csharp_pro
                 timer1.Stop();
                 this.Hide();
                 // SignUp s = new SignUp();  
-                Dashboard d = new Dashboard();
-                d.Visible = true;
+                Home h = new Home();
+                h.Visible = true;
             }
 
         }

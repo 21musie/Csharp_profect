@@ -36,6 +36,9 @@ namespace csharp_pro
             //this.panel1.Tag = sp;
             //sp.BringToFront();
             //sp.Show();
+            Home h = new Home();
+            this.Hide();
+            h.Show();
 
             ItemCard i = new ItemCard();
             flp1.BringToFront();
@@ -123,6 +126,16 @@ namespace csharp_pro
         }
 
         private void flp1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void flp2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }

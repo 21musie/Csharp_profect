@@ -49,9 +49,6 @@ C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj
 C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\bin\Debug\Guna.UI2.dll
 C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\bin\Debug\RJCodeAdvance.RJControls.dll
 C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.user_registration.resources
-C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Dash.Form2.resources
-C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.students.resources
-C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Teachers.resources
 C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.ItemCard.resources
 C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\csharp_pro.exe.config
 C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\bin\Debug\csharp_pro.exe
@@ -84,3 +81,42 @@ C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_
 C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.exe
 C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.pdb
 C:\Users\HP\Documents\GitHub\alx-higher_level_programming\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.CardClicked.resources
+C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.CardClicked.resources
+C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\bin\Debug\EntityFramework.dll
+C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\bin\Debug\EntityFramework.xml
+C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Valued Customer\Desktop\Musie\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.GunaE.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\csharp_pro.exe.config
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\csharp_pro.exe
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\csharp_pro.pdb
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Design.dll
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\EntityFramework.dll
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\Guna.UI2.dll
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\RJCodeAdvance.RJControls.dll
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\EntityFramework.xml
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.AssemblyReference.cache
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.SuggestedBindingRedirects.cache
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Dashboard.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Form1.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Home.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.GunaE.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.CardClicked.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.ItemCard.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.postItem.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.items.user_registration.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.Properties.Resources.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.SignUp.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.splash.resources
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.GenerateResource.cache
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.CoreCompileInputs.cache
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.csproj.CopyComplete
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.exe
+C:\Users\Yabsira Fiker\Documents\Csharp_project\csharp_prof\csharp_pro\obj\Debug\csharp_pro.pdb

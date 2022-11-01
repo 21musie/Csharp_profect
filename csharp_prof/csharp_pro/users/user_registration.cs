@@ -31,32 +31,17 @@ namespace csharp_pro.items
         private void btn_register_Click(object sender, EventArgs e)
         {
             Customer c = new Customer();
-            Seller s = new Seller();
-
-            if (rdb_seller.Checked)
-            {
+           
+            
                 if (Rname.IsMatch(txt_Fname.Text) & Rname.IsMatch(txt_Lname.Text) & Remail.IsMatch(txt_email.Text) & Rphone.IsMatch(txt_phone.Text))
                 {
-                    errorProvider1.Clear();
-
-                    s.Fname = txt_Fname.Text;
-                    s.Lname = txt_Lname.Text;
-                    s.age = int.Parse(txt_age.Text);
-                    s.email = txt_email.Text;
-                    s.phone = int.Parse(txt_phone.Text);
-                    s.date = bunifuDatepicker1.Value;
-                }
-            }
-            else if (rdb_buyer.Checked)
-            {
-                if (Rname.IsMatch(txt_Fname.Text) & Rname.IsMatch(txt_Lname.Text) & Remail.IsMatch(txt_email.Text) & Rphone.IsMatch(txt_phone.Text))
-                {
-                    c.Fname = txt_Fname.Text;
-                    c.Lname = txt_Lname.Text;
-                    c.age = int.Parse(txt_age.Text);
-                    c.email = txt_email.Text;
-                    c.phone = int.Parse(txt_phone.Text);
-                    c.date = bunifuDatepicker1.Value;
+                    c.First_Name=txt_Fname.Text;  
+                    c.Last_Name=txt_Lname.Text;
+                    
+                    c.Age = int.Parse(txt_age.Text);
+                    c.Email = txt_email.Text;
+                    c.Phone = txt_phone.Text;
+                    c.Date = bunifuDatepicker1.Value;
                 }
                 else 
                 {
@@ -70,19 +55,9 @@ namespace csharp_pro.items
                         errorProvider1.SetError(txt_phone, "Incorrect Phone Format");
                 }
             }
-            else
-            {
-                
-            }
-                // validating terms and services
-                if (rdb_seller.Checked)
-                {
-                    // s.save();      
-                }
-
-
+            
             
         }
     }
-}
+
 

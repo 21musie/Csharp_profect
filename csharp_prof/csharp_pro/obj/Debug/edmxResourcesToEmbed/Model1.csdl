@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Administrator">
+    <Key>
+      <PropertyRef Name="Admin_ID" />
+    </Key>
+    <Property Name="Admin_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="First_Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Last_Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Age" Type="Int32" />
+  </EntityType>
+  <EntityType Name="catagory">
+    <Key>
+      <PropertyRef Name="CatagoryId" />
+    </Key>
+    <Property Name="CatagoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Catagory_Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="items" Relationship="Self.fk_item_cata" FromRole="catagory" ToRole="item" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Customer_Id" />
+    </Key>
+    <Property Name="Customer_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="First_Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Last_Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="itemid" Type="Int32" />
+    <NavigationProperty Name="item" Relationship="Self.fk_cus1_item" FromRole="Customers" ToRole="item" />
+  </EntityType>
+  <EntityType Name="item">
+    <Key>
+      <PropertyRef Name="Item_ID" />
+    </Key>
+    <Property Name="Item_ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Post_Date" Type="DateTime" Precision="3" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="Location" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="catagoryid" Type="Int32" />
+    <NavigationProperty Name="catagory" Relationship="Self.fk_item_cata" FromRole="item" ToRole="catagory" />
+    <NavigationProperty Name="Customers" Relationship="Self.fk_cus1_item" FromRole="item" ToRole="Customers" />
+  </EntityType>
+  <Association Name="fk_item_cata">
+    <End Role="catagory" Type="Self.catagory" Multiplicity="0..1" />
+    <End Role="item" Type="Self.item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catagory">
+        <PropertyRef Name="CatagoryId" />
+      </Principal>
+      <Dependent Role="item">
+        <PropertyRef Name="catagoryid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_cus1_item">
+    <End Role="item" Type="Self.item" Multiplicity="0..1" />
+    <End Role="Customers" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="item">
+        <PropertyRef Name="Item_ID" />
+      </Principal>
+      <Dependent Role="Customers">
+        <PropertyRef Name="itemid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Online_Market_DB_ModelEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Administrators" EntityType="Self.Administrator" />
+    <EntitySet Name="catagories" EntityType="Self.catagory" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="items" EntityType="Self.item" />
+    <AssociationSet Name="fk_item_cata" Association="Self.fk_item_cata">
+      <End Role="catagory" EntitySet="catagories" />
+      <End Role="item" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="fk_cus1_item" Association="Self.fk_cus1_item">
+      <End Role="item" EntitySet="items" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

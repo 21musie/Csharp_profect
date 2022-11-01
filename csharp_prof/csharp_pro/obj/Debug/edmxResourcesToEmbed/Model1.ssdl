@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Administrator">
+    <Key>
+      <PropertyRef Name="Admin ID" />
+    </Key>
+    <Property Name="Admin ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="First Name" Type="nchar" MaxLength="50" />
+    <Property Name="Last Name" Type="nchar" MaxLength="50" />
+    <Property Name="Email" Type="nchar" MaxLength="50" />
+    <Property Name="Password" Type="nchar" MaxLength="50" />
+    <Property Name="Age" Type="int" />
+  </EntityType>
+  <EntityType Name="catagory">
+    <Key>
+      <PropertyRef Name="CatagoryId" />
+    </Key>
+    <Property Name="CatagoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Catagory Name" Type="nchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="Customer Id" />
+    </Key>
+    <Property Name="Customer Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="First Name" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="Last Name" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Phone" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Email" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="itemid" Type="int" />
+  </EntityType>
+  <EntityType Name="item">
+    <Key>
+      <PropertyRef Name="Item ID" />
+    </Key>
+    <Property Name="Item ID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="Status" Type="nchar" MaxLength="100" />
+    <Property Name="Post Date" Type="datetime" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="Location" Type="nchar" MaxLength="10" />
+    <Property Name="catagoryid" Type="int" />
+  </EntityType>
+  <Association Name="fk_cus1_item">
+    <End Role="item" Type="Self.item" Multiplicity="0..1" />
+    <End Role="Customers" Type="Self.Customers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="item">
+        <PropertyRef Name="Item ID" />
+      </Principal>
+      <Dependent Role="Customers">
+        <PropertyRef Name="itemid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_item_cata">
+    <End Role="catagory" Type="Self.catagory" Multiplicity="0..1" />
+    <End Role="item" Type="Self.item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catagory">
+        <PropertyRef Name="CatagoryId" />
+      </Principal>
+      <Dependent Role="item">
+        <PropertyRef Name="catagoryid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Administrator" EntityType="Self.Administrator" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="catagory" EntityType="Self.catagory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="item" EntityType="Self.item" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_cus1_item" Association="Self.fk_cus1_item">
+      <End Role="item" EntitySet="item" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="fk_item_cata" Association="Self.fk_item_cata">
+      <End Role="catagory" EntitySet="catagory" />
+      <End Role="item" EntitySet="item" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

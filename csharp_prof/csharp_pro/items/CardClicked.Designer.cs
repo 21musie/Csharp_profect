@@ -435,6 +435,6 @@
         private System.Windows.Forms.Label lbl_phone;
         private System.Windows.Forms.Label lbl_sellerEmail;
         private System.Windows.Forms.Label lbl_Email;
-        private Guna.UI2.WinForms.Guna2Button btn_post;
+        private global::Guna.UI2.WinForms.Guna2Button btn_post;
     }
 }
